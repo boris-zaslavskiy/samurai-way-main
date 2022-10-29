@@ -1,0 +1,13 @@
+import React from "react";
+import MyPosts from "./MyPosts/MyPosts";
+import c from "./Profile.module.css";
+import ProfileInfo from "./MyPosts/ProfileInfo/ProfileInfo";
+
+const Profile = () => {
+    return  <div className={c.content}>
+        <ProfileInfo/>
+        <MyPosts />
+    </div>
+}
+
+export default Profile;
